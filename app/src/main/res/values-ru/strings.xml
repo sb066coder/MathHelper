@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Math Helper</string>
+    <string name="title_column_division">Деление в столбик</string>
+    <string name="title_factorization">Разложение на множители</string>
+    <string name="divided">Делимое:</string>
+    <string name="divisor">Делитель:</string>
+    <string name="enter_the_divided_number">Введите делимое</string>
+    <string name="enter_the_divisor">Введите делитель</string>
+    <string name="result">Результат:</string>
+    <string name="remain">Остаток:</string>
+    <string name="enter_both_numbers_then_press_equals">Введите два числа и нажмите =</string>
+    <string name="by0">Деление на 0 невозможно</string>
+    <string name="factorize">Разложить</string>
+    <string name="get_list_of_primes">Вывести простые числа</string>
+    <string name="number">Число</string>
+    <string name="enter_a_number">Введите число</string>
+    <string name="calculate">Вычислить</string>
+    <string name="PRM">Простое число</string>
+</resources>

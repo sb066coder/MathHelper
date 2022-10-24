@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_column_division"
+        android:icon="@drawable/ic_baseline_align_horizontal_right_24"
+        android:title="@string/title_column_division" />
+
+    <item
+        android:id="@+id/navigation_factorization"
+        android:icon="@drawable/ic_baseline_content_cut_24"
+        android:title="@string/title_factorization" />
+
+<!--    <item-->
+<!--        android:id="@+id/navigation_notifications"-->
+<!--        android:icon="@drawable/ic_notifications_black_24dp"-->
+<!--        android:title="@string/title_notifications" />-->
+
+</menu>

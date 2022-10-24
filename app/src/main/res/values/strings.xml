@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Math Helper</string>
+    <string name="title_column_division">Column division</string>
+    <string name="title_factorization">Factorization</string>
+    <string name="title_notifications" translatable="false">Notifications</string>
+    <string name="divided">Divided:</string>
+    <string name="divisor">Divisor:</string>
+    <string name="enter_the_divided_number">Enter the divided number</string>
+    <string name="enter_the_divisor">Enter the divisor</string>
+    <string name="result">Result:</string>
+    <string name="remain">Remain:</string>
+    <string name="equals_sign" translatable="false">=</string>
+    <string name="enter_both_numbers_then_press_equals">Enter both numbers and press =</string>
+    <string name="by0">Division by 0 is impossible</string>
+    <string name="factorize">Factorize</string>
+    <string name="get_list_of_primes">Get list of primes</string>
+    <string name="number">Number:</string>
+    <string name="enter_a_number">Enter a number</string>
+    <string name="calculate">Calculate</string>
+    <string name="PRM">Prime number</string>
+</resources>

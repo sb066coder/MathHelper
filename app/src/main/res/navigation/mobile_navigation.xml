@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_column_division">
+
+    <fragment
+        android:id="@+id/navigation_column_division"
+        android:name="ru.sb066coder.mathhelper.ui.columndivizion.ColumnDivisionFragment"
+        android:label="@string/title_column_division"
+        tools:layout="@layout/fragment_column_division" />
+
+    <fragment
+        android:id="@+id/navigation_factorization"
+        android:name="ru.sb066coder.mathhelper.ui.factorization.FactorizationFragment"
+        android:label="@string/title_factorization"
+        tools:layout="@layout/fragment_factorization" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="ru.sb066coder.mathhelper.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+</navigation>
