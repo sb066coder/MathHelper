@@ -22,9 +22,12 @@ class ColumnDivisionViewModel : ViewModel() {
     }
     val column: LiveData<String> = _column
 
+    var divDigits: Int = 0
+
     fun divide(divided: String, divisor: String) {
-            _result.value = ColumnDivision.result(divided, divisor)
-            _remain.value = ColumnDivision.remain(divided, divisor)
-            _column.value = ColumnDivision.columnText(divided, divisor)
+        divDigits = ColumnDivision.numberOfDigits(divided.toLong())
+        _result.value = ColumnDivision.result(divided, divisor)
+        _remain.value = ColumnDivision.remain(divided, divisor)
+        _column.value = ColumnDivision.columnText(divided, divisor)
     }
 }

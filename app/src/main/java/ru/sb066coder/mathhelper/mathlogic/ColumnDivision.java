@@ -58,7 +58,7 @@ public class ColumnDivision {
         return(resStr.toString());
     }
 
-    private static int numberOfDigits(long n){
+    public static int numberOfDigits(long n){
         return(Long.toString(n).length());
     }
 

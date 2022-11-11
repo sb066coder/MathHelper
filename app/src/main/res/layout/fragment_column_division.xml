@@ -111,14 +111,33 @@
         android:layout_margin="8dp"
         android:layout_width="match_parent"
         android:layout_height="0dp">
-        <TextView
-            android:id="@+id/tvColumn"
+
+        <FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingBottom="16dp"
-            android:textSize="16sp"
-            android:fontFamily="monospace"
-            tools:text="@string/enter_both_numbers_then_press_equals"/>
+            android:paddingBottom="30dp">
+
+            <TextView
+                android:id="@+id/tvColumn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:textSize="16sp"
+                android:fontFamily="monospace"
+                tools:text="01000000000100000000010000000000000000"/>
+
+            <ImageView
+                android:id="@+id/ivDivisionLine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/im_division"
+                android:layout_marginStart="4.3sp"
+                android:visibility="invisible"
+                tools:visibility="visible"
+                android:layout_marginTop="5sp"/> <!--4.3 + n * 9.51-->
+
+        </FrameLayout>
+
     </ScrollView>
 
 
